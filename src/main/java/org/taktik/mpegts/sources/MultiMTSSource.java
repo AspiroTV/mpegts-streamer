@@ -153,7 +153,7 @@ public class MultiMTSSource extends AbstractMTSSource {
 		}
 
 		public MultiMTSSourceBuilder addSources(Collection<MTSSource> sources) {
-			sources.addAll(sources);
+			this.sources.addAll(sources);
 			return this;
 		}
 

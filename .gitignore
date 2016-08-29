@@ -4,3 +4,6 @@ hs_err_pid*
 build/
 .idea/
 *.iml
+/.settings/
+/.classpath
+/.project
